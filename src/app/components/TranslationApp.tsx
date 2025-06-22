@@ -35,7 +35,7 @@ export default function TranslationApp() {
     setResult(null);
 
     try {
-      const response = await fetch("http://localhost:8000/process/", {
+      const response = await fetch("https://lingofy-backend.vercel.app/process/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ paragraph: paragraph.trim(), language }),
