@@ -68,7 +68,7 @@ export function TextInputForm({
           <button
             type="submit"
             disabled={loading || !paragraph.trim() || wordCount > 200}
-            className="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-6 rounded-xl hover:from-blue-700 hover:to-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-500/30 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 font-semibold text-lg shadow-lg hover:shadow-blue-500/25"
+            className="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-6 rounded-xl hover:from-blue-700 hover:to-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-500/30 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 font-semibold md:text-lg shadow-lg hover:shadow-blue-500/25"
           >
             {loading ? (
               <div className="flex items-center justify-center">
